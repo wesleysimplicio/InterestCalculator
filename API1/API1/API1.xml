@@ -9,7 +9,7 @@
             Retorna 0.01
             </summary>
             <returns>Valor 0.01</returns>
-            <response code="200">Retorna 200</response>
+            <response code="200">Retorna 0.01</response>
         </member>
     </members>
 </doc>
