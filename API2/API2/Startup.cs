@@ -1,3 +1,6 @@
+using API2.Domain.Business;
+using API2.Domain.Interfaces;
+using API2.Domain.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,7 +32,8 @@ namespace API2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
+            services.AddScoped<ICalcBusiness, CalcBusiness>();
+            services.AddScoped<ICalcRepository, CalcRepository>();
 
             services.AddSwaggerGen(c =>
             {

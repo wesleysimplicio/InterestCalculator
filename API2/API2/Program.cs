@@ -22,5 +22,6 @@ namespace API2
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
     }
 }

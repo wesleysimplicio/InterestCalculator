@@ -4,6 +4,16 @@
         <name>API2</name>
     </assembly>
     <members>
+        <member name="M:API2.Controllers.CalcController.Get(System.Double,System.Int32)">
+            <summary>
+            Calculo de Juros
+            </summary>
+            <returns>Retorna o resultado da operação</returns>
+            <param name="valorinicial">Valor decimal do campo Valor inicial</param>
+            <param name="meses">Valor inteiro dos meses</param>
+            <response code="200">Retorna o valor calculado do juros conforme parametros</response>
+            <response code="400">Retorna erro caso não seja o que foi esperado</response>
+        </member>
         <member name="M:API2.Controllers.ShowMeTheCodeController.Index">
             <summary>
             Retorna caminho do projeto

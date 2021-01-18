@@ -14,10 +14,10 @@ COPY ["API2/API2.csproj", "API2/"]
 RUN dotnet restore "API2/API2.csproj"
 COPY . .
 WORKDIR "/src/API2"
-RUN dotnet build "API2.csproj" -c Release -o /app/build
+RUN dotnet build "API2.csproj" -c Release -o /app/build -d bridge my-network
 
 FROM build AS publish
-RUN dotnet publish "API2.csproj" -c Release -o /app/publish
+RUN dotnet publish "API2.csproj" -c Release -o /app/publish -d bridge my-network
 
 FROM base AS final
 WORKDIR /app

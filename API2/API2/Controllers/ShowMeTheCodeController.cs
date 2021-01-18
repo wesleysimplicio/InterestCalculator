@@ -9,16 +9,16 @@ namespace API2.Controllers
     [ApiController]
     [Route("[controller]")]
     public class ShowMeTheCodeController : Controller
-    { 
+    {
         /// <summary>
-      /// Retorna caminho do projeto
-      /// </summary>
-      /// <returns>URL do projeto que está no GitHub</returns>
-      /// <response code="200">Retorna caminho do projeto no GitHub</response>
+        /// Retorna caminho do projeto
+        /// </summary>
+        /// <returns>URL do projeto que está no GitHub</returns>
+        /// <response code="200">Retorna caminho do projeto no GitHub</response>
         [HttpGet("/showmethecode")]
         public IActionResult Index()
         {
-            return Ok("https://github.com/wesleysimplicio/InterestCalculator/");
+            return Redirect("https://github.com/wesleysimplicio/InterestCalculator/");
         }
     }
 }
