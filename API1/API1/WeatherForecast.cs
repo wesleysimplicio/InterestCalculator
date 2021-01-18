@@ -1,6 +1,6 @@
 using System;
 
-namespace InterestCalculator
+namespace API1
 {
     public class WeatherForecast
     {

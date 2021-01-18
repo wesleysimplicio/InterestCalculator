@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace InterestCalculator.Controllers
+namespace API2.Controllers
 {
     [ApiController]
     [Route("[controller]")]
