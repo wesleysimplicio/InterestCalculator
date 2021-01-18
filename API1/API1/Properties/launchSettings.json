@@ -29,7 +29,7 @@
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api1/taxaJuros",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/taxaJuros",
       "publishAllPorts": true,
       "useSSL": true
     }

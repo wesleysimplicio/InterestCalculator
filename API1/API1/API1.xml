@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API1</name>
+    </assembly>
+    <members>
+        <member name="M:API1.Controllers.TaxaJurosController.Get">
+            <summary>
+            Retorna 0.01
+            </summary>
+            <returns>Valor 0.01</returns>
+            <response code="200">Retorna 200</response>
+        </member>
+    </members>
+</doc>
