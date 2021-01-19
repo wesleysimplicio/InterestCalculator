@@ -1,5 +1,4 @@
 ﻿using API2.Domain.Interfaces;
-using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
@@ -8,15 +7,12 @@ namespace API2.Domain.Business
     public class CalcBusiness : ICalcBusiness
     {
         private readonly ICalcRepository _calcRepository;
-        private readonly ILogger _logger;
 
         public CalcBusiness(
-             ICalcRepository calcRepository,
-            ILogger<CalcBusiness> logger
+             ICalcRepository calcRepository
             )
         {
             _calcRepository = calcRepository;
-            _logger = logger;
         }
 
         public async Task<string> Calculator(double valorinicial, int meses)
