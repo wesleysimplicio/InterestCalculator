@@ -1,5 +1,5 @@
 ﻿using API2.Domain.Interfaces;
-using FASTSHOP.Api.Models;
+using API2.Api.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;

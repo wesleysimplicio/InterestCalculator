@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FASTSHOP.Api.Models
+namespace API2.Api.Models
 {
     public class ErrorItem
     {

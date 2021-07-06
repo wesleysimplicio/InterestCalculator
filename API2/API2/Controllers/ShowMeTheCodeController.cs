@@ -18,7 +18,7 @@ namespace API2.Controllers
         [HttpGet("/showmethecode")]
         public IActionResult Index()
         {
-            return Redirect("https://github.com/wesleysimplicio/InterestCalculator/");
+            return Ok("https://github.com/wesleysimplicio/InterestCalculator/");
         }
     }
 }
